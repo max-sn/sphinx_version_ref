@@ -9,10 +9,11 @@ This extension adds a single role to the |RST| parser of |sphinx|_.
 
 .. rst:role:: version-ref
 
-  :rst:role:`version-ref` takes its argument, replaces all occurences of
+  :rst:role:`version-ref` takes its argument, replaces all occurrences of
   ``{version}`` in it by the string set by the ``version`` configuration
-  variable and then processes it as if it were a normal :abbr:`URI (uniform
-  resource identifier)`.
+  variable and similarly for all occurrences of ``{release}``. Then it will
+  proces its argument as if it were a normal :abbr:`URI (uniform resource
+  identifier)`.
 
   .. rubric:: Example
 

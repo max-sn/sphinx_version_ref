@@ -17,7 +17,7 @@ setup(
     license='MIT',
     author='M.J.W. Snippe',
     author_email='maxsnippe@gmail.com',
-    description='Sphinx extension to substitute version in references',
+    description='Sphinx extension to substitute version in references.',
     long_description=long_desc,
     zip_safe=False,
     classifiers=[
