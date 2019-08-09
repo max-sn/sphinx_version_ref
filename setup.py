@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import subprocess
 from setuptools import setup, find_packages
 
 long_desc = open('README.rst').read()
@@ -13,7 +12,6 @@ project_urls = {
 
 setup(
     name='sphinx-version-ref',
-    version='0.0.1a2',
     url=project_urls['Documentation'],
     project_urls=project_urls,
     license='MIT',
