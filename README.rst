@@ -9,6 +9,9 @@ sphinx_version_ref
   :target: https://pypi.org/project/sphinx-version-ref/0.0.1a1/
   :alt: PyPi version
 
+This extension adds a single role to `Sphinx <http://www.sphinx-doc.org/>`_.
+With ``:version-ref:`<ref>``` one can substitute the version given in
+``conf.py`` into ``<ref>``.
 
 Usage
 -----
