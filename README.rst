@@ -1,9 +1,14 @@
 sphinx_version_ref
 ==================
 
-This extension adds a single role to `Sphinx <www.sphinx-doc.org>`_. With 
-``:version-ref:`<ref>``` one can substitute the version given in ``conf.py``
-into ``<ref>``.
+.. image:: https://img.shields.io/readthedocs/sphinx-version-ref/latest
+  :target: https://sphinx-version-ref.readthedocs.io/en/latest/
+  :alt: Documentation Status
+
+.. image:: https://img.shields.io/pypi/v/sphinx-version-ref
+  :target: https://pypi.org/project/sphinx-version-ref/0.0.1a1/
+  :alt: PyPi version
+
 
 Usage
 -----
