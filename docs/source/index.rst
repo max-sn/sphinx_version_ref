@@ -45,8 +45,9 @@ This extension adds a single role to the |RST| parser of |sphinx|_.
   <https://github.com/max-sn/sphinx_version_ref/tree/{release}>`
 
 
+*****
 Usage
------
+*****
 
 In your ``conf.py`` file::
 
