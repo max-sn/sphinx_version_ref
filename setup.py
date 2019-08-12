@@ -1,9 +1,19 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-long_desc = open('README.rst').read()
+with open('README.rst') as f:
+    long_desc = [line.strip('\n') for line in f.readlines()]
 
-requires = ['Sphinx>=1.3']
+    for i, line in enumerate(long_desc):
+        if r'buy%20me%20a%20coffee' in line or r'pypi/v/sphinx' in line:
+            del long_desc[i:i+4]
+
+    long_desc = '\n'.join(long_desc)
+
+requires = [
+    'Sphinx>=1.3',
+    'setuptools>=20.7'
+]
 project_urls = {
     'Documentation': 'http://sphinx-version-ref.readthedocs.io/',
     'Repository': 'https://github.com/max-sn/sphinx_version_ref/',
@@ -19,6 +29,7 @@ setup(
     author_email='maxsnippe@gmail.com',
     description='Sphinx extension to substitute version in references.',
     long_description=long_desc,
+    long_description_content_type='text/x-rst',
     zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',

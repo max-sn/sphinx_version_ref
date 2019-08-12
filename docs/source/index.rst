@@ -2,6 +2,22 @@
 sphinx_version_ref
 ##################
 
+.. image:: https://img.shields.io/pypi/v/sphinx-version-ref
+  :target: https://pypi.org/project/sphinx-version-ref/
+  :alt: PyPi version
+
+.. image:: https://img.shields.io/pypi/dm/sphinx-version-ref
+  :target: https://pypi.org/project/sphinx-version-ref/
+  :alt: PyPi downloads per month
+
+.. image:: https://img.shields.io/readthedocs/sphinx-version-ref/latest
+  :target: https://sphinx-version-ref.readthedocs.io/en/latest/
+  :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/buy%20me%20a%20coffee-3$-blue
+  :target: https://paypal.me/maxsn0/3USD
+  :alt: Buy me a coffee
+
 :Author: M.J.W. Snippe
 :Version: |version|
 
@@ -29,12 +45,13 @@ This extension adds a single role to the |RST| parser of |sphinx|_.
   <https://github.com/max-sn/sphinx_version_ref/tree/{release}>`
 
 
+*****
 Usage
------
+*****
 
 In your ``conf.py`` file::
 
-  release = '0.0.1a0'
+  release = '0.0.1a2'
   version = '.'.join(release.split('.')[:2])
   extensions = ['sphinx_version_ref']
 
@@ -51,7 +68,7 @@ then will be parsed as:
     - ```https://docs.com/0.0/index.html`_``
     - :version-ref:`https://docs.com/{version}/index.html`
   * - ``Repo version {version} <http://github.com/user/project/tree/{release}>``
-    - ```Repo version 0.0 <http://github.com/user/project/tree/0.0.1a0>`_``
+    - ```Repo version 0.0 <http://github.com/user/project/tree/0.0.1a2>`_``
     - :version-ref:`Repo version {version} <http://github.com/user/project/tree/{release}>`
 
 .. |RST| replace:: reStructuredText
