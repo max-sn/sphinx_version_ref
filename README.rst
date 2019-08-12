@@ -1,13 +1,21 @@
 sphinx_version_ref
 ==================
 
+.. image:: https://img.shields.io/pypi/v/sphinx-version-ref
+  :target: https://pypi.org/project/sphinx-version-ref/
+  :alt: PyPi version
+
+.. image:: https://img.shields.io/pypi/dm/sphinx-version-ref
+  :target: https://pypi.org/project/sphinx-version-ref/
+  :alt: PyPi downloads per month
+
 .. image:: https://img.shields.io/readthedocs/sphinx-version-ref/latest
   :target: https://sphinx-version-ref.readthedocs.io/en/latest/
   :alt: Documentation Status
 
-.. image:: https://img.shields.io/pypi/v/sphinx-version-ref
-  :target: https://pypi.org/project/sphinx-version-ref/0.0.1a1/
-  :alt: PyPi version
+.. image:: https://img.shields.io/badge/buy%20me%20a%20coffee-3$-blue
+  :target: https://paypal.me/maxsn0/3USD
+  :alt: Buy me a coffee
 
 This extension adds a single role to `Sphinx <http://www.sphinx-doc.org/>`_.
 With ``:version-ref:`<ref>``` one can substitute the version given in
