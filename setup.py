@@ -22,6 +22,7 @@ setup(
     author_email='maxsnippe@gmail.com',
     description='Sphinx extension to substitute version in references.',
     long_description=long_desc,
+    long_description_content_type='text/x-rst',
     zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',
