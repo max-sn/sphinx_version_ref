@@ -3,7 +3,10 @@ from setuptools import setup, find_packages
 
 long_desc = open('README.rst').read()
 
-requires = ['Sphinx>=1.3']
+requires = [
+    'Sphinx>=1.3',
+    'setuptools>=20.7'
+]
 project_urls = {
     'Documentation': 'http://sphinx-version-ref.readthedocs.io/',
     'Repository': 'https://github.com/max-sn/sphinx_version_ref/',
