@@ -47,7 +47,7 @@ Usage
 
 In your ``conf.py`` file::
 
-  release = '0.0.1a2'
+  release = '0.1.0a0'
   version = '.'.join(release.split('.')[:2])
   extensions = ['sphinx_version_ref']
 
@@ -64,7 +64,7 @@ then will be parsed as:
     - ```https://docs.com/0.0/index.html`_``
     - :version-ref:`https://docs.com/{version}/index.html`
   * - ``Repo version {version} <http://github.com/user/project/tree/{release}>``
-    - ```Repo version 0.0 <http://github.com/user/project/tree/0.0.1a2>`_``
+    - ```Repo version 0.0 <http://github.com/user/project/tree/0.1.0a0>`_``
     - :version-ref:`Repo version {version} <http://github.com/user/project/tree/{release}>`
 
 .. |RST| replace:: reStructuredText
