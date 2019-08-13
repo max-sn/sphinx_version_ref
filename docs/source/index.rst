@@ -16,6 +16,7 @@ sphinx_version_ref
 
 :Author: M.J.W. Snippe
 :Version: |version|
+:Release: |release|
 
 This extension adds a single role to the |RST| parser of |sphinx|_.
 
