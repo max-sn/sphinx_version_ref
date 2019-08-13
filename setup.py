@@ -2,13 +2,7 @@
 from setuptools import setup, find_packages
 
 with open('README.rst') as f:
-    long_desc = [line.strip('\n') for line in f.readlines()]
-
-    for i, line in enumerate(long_desc):
-        if r'buy%20me%20a%20coffee' in line or r'pypi/v/sphinx' in line:
-            del long_desc[i:i+4]
-
-    long_desc = '\n'.join(long_desc)
+    long_desc = f.read()
 
 requires = [
     'Sphinx>=1.3',

@@ -14,10 +14,6 @@ sphinx_version_ref
   :target: https://sphinx-version-ref.readthedocs.io/en/latest/
   :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/buy%20me%20a%20coffee-3$-blue
-  :target: https://paypal.me/maxsn0/3USD
-  :alt: Buy me a coffee
-
 :Author: M.J.W. Snippe
 :Version: |version|
 
