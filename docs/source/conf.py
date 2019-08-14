@@ -43,7 +43,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
-    'sphinx_version_ref'
+    'sphinx_version_ref',
+    'releases'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
