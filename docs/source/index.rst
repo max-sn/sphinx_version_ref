@@ -7,7 +7,7 @@ sphinx_version_ref
   :alt: PyPi version
 
 .. image:: https://img.shields.io/pypi/dm/sphinx-version-ref
-  :target: https://pypi.org/project/sphinx-version-ref/
+  :target: https://pypistats.org/packages/sphinx-version-ref
   :alt: PyPi downloads per month
 
 .. image:: https://img.shields.io/readthedocs/sphinx-version-ref/latest
