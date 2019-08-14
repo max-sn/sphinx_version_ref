@@ -191,3 +191,12 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+
+# -- Options for releases extension ------------------------------------------
+
+# TODO adding this will point the 'Next feature release' to the master branch,
+# which is not where I keep the new features. There is a pull request to solve
+# this: https://github.com/bitprophet/releases/pull/54 but the repository has
+# not been touched since January.
+releases_github_path = 'max-sn/sphinx_version_ref'
