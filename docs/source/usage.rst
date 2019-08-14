@@ -4,7 +4,7 @@ Usage
 
 In your ``conf.py`` file::
 
-  release = '0.1.0a0'
+  release = '0.2.0-a'
   version = '.'.join(release.split('.')[:2])
   extensions = ['sphinx_version_ref']
 
