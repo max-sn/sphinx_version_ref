@@ -41,6 +41,6 @@ def setup(app):
 
     app.add_role('version-ref', version_ref_role)
 
-    return {'version': '0.0',
+    return {'version': __version__,
             'parallel_read_safe': True,
             'parallel_write_safe': True}

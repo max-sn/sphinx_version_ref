@@ -16,6 +16,7 @@ sphinx_version_ref
 
 :Author: M.J.W. Snippe
 :Version: |version|
+:Release: |release|
 
 This extension adds a single role to the |RST| parser of |sphinx|_.
 
@@ -47,7 +48,7 @@ Usage
 
 In your ``conf.py`` file::
 
-  release = '0.1.0a0'
+  release = '0.1.0'
   version = '.'.join(release.split('.')[:2])
   extensions = ['sphinx_version_ref']
 
