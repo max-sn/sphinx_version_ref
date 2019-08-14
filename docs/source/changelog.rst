@@ -2,6 +2,7 @@
 Changelog
 #########
 
+- :release:`0.2.0-a <2019-08-14>`
 - :support:`-` Included a readthedocs.yml build specification
 - :support:`-` Added a change log using releases\ [#rel]_
 - :support:`-` Link 'downloads' badge to pipystats.org
